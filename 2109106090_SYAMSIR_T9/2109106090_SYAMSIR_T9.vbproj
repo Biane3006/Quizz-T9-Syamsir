@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9F993B8-DE38-41F0-8FDF-5AFF0CB04853}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_2109106090_SYAMSIR_T9</RootNamespace>
+    <AssemblyName>2109106090_SYAMSIR_T9</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Program Files\QuizzT9\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>2109106090_SYAMSIR_T9.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\Program Files\QuizzT9\</OutputPath>
+    <DocumentationFile>2109106090_SYAMSIR_T9.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_2109106090_SYAMSIR_T9.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_quiz_game_contestants.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FA91762640BB847321814E858DF0ACF2B8894F85</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>2109106090_SYAMSIR_T9_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrudAdmin.Designer.vb">
+      <DependentUpon>CrudAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrudAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrudSoal.Designer.vb">
+      <DependentUpon>CrudSoal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrudSoal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database_T9DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_T9DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hasil Quiz.Designer.vb">
+      <DependentUpon>Hasil Quiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hasil Quiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kode Aplikasi.Designer.vb">
+      <DependentUpon>Kode Aplikasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kode Aplikasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListSoal.Designer.vb">
+      <DependentUpon>ListSoal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListSoal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.Designer.vb">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Awal.Designer.vb">
+      <DependentUpon>Menu Awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Awal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.vb">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPeraturanQuiz.Designer.vb">
+      <DependentUpon>MenuPeraturanQuiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPeraturanQuiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrudAdmin.resx">
+      <DependentUpon>CrudAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrudSoal.resx">
+      <DependentUpon>CrudSoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasil Quiz.resx">
+      <DependentUpon>Hasil Quiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kode Aplikasi.resx">
+      <DependentUpon>Kode Aplikasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSoal.resx">
+      <DependentUpon>ListSoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Awal.resx">
+      <DependentUpon>Menu Awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPeraturanQuiz.resx">
+      <DependentUpon>MenuPeraturanQuiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Database_T9DataSet.xsc">
+      <DependentUpon>Database_T9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database_T9DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_T9DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_T9DataSet.xss">
+      <DependentUpon>Database_T9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_quiz_game_contestants.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

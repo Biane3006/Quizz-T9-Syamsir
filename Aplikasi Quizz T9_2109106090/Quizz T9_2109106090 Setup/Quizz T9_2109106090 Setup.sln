@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33529.398
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Quizz T9_2109106090 Setup", "Quizz T9_2109106090 Setup\Quizz T9_2109106090 Setup.vdproj", "{0D881700-C3DD-440B-A14C-502BD528262B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D881700-C3DD-440B-A14C-502BD528262B}.Debug|Default.ActiveCfg = Debug
+		{0D881700-C3DD-440B-A14C-502BD528262B}.Debug|Default.Build.0 = Debug
+		{0D881700-C3DD-440B-A14C-502BD528262B}.Release|Default.ActiveCfg = Release
+		{0D881700-C3DD-440B-A14C-502BD528262B}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CED9102F-7097-4DB0-ACFE-F904C2454D1D}
+	EndGlobalSection
+EndGlobal
