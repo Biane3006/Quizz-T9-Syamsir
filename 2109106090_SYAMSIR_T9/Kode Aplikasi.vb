@@ -22,9 +22,11 @@ Public Class Kode_Aplikasi
                 MessageBox.Show("Silahkan Masukkan Kode Aplikasi", "GAGAL", MessageBoxButtons.OK, MessageBoxIcon.Error)
             ElseIf BacaData.GetValue(0).ToString = "" Then
                 MessageBox.Show("Silahkan Jalankan Aplikasi GenerateCode Terlebih dahulu untuk mendapatkan Kode Baru", "GAGAL", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            Else
+            ElseIf BacaData.GetValue(0).ToString = tbKodeAwal.Text Then
                 Menu_Awal.Show()
                 Me.Close()
+            Else
+                MessageBox.Show("Kode Salah, Silahkan Buka Aplikasi GenerateCode!!!", "GAGAL", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         End If
         BacaData.Close()
